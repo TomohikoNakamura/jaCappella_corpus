@@ -16,21 +16,22 @@ The musical scores of the songs are provided in the PDF and MusicXML formats.
 ## Metadata
 Metadata of the songs are given as a csv file.
 The items in the csv file are as follows.
-- song_name_in_en: Song title in Hepburnian Roman alphabet
-- song_name_in_en: Song title in Japanese
-- lyricist: Lyricist name
-- lyric_copyright: Copyright of the lyrics
-- composer: Composer
-- song_copyright：Copyright of the song
-- arranger：Arranger
-- subset：Name of subset
-- voice_part：voice part name
-- singer_id: Singer ID
-- gender: Gender of the singer
-- first_lang: Native language of the singer
+- title_in_en: Title in Hepburnian Roman alphabet
+- title_in_ja: Title in Japanese
+- lyric_writer: Lyric writer name of the original song in Japanese
+- copyright_of_lyric_writer: Copyright of the lyric writer of the original song
+- composer: Composer name of the original song in Japanese
+- copyright_of_composer: Copyright of the composer of the original song
+- arranger：Arranger name of the song of our corpus in Japanese
+- subset：Subset name
+- voice_part：Voice part name
+- singer_id: Singer identifier (ID)
+- gender: Singer's gender
+- first_lang: First language of singer
 
 # Terms of Use
 The terms of use are different for non-commercial and commercial uses.
+The jaCappella corpus team reserves all copyrights and neigboring rights of the vocal ensemble songs.
 
 ## For non-commercial use
 For non-commercial use, audio and score data are distributed under the [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
@@ -41,7 +42,7 @@ Possible use cases are as follows.
 - Personal use (including blogs, etc.)
 
 The redistribution of the data of this corpus is not permitted.
-However, you are allowed to publish a part of the corpus (e.g., a few phrases of around 5 songs) to demonstrate the results of your research and development on your web pages, blog, etc. 
+However, you are allowed to publish a part of the corpus (e.g., a few phrases of around 5 songs) to demonstrate the results of your research and development on your web pages, blog, and so on.
 For other purposes, or if you need to publish the entire data of this corpus, please contact us in advance.
 
 ## For commercial Use
