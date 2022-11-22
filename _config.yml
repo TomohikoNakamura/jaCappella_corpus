@@ -24,14 +24,4 @@ description: 'jaCappella Corpus: Japanese a Cappella Vocal Ensemble Corpus'
 theme: jekyll-theme-cayman
 
 # Optional
-google-analytics: G-9EPRVMYY0Z
-
-# # For publication list
-# scholar:
-#   style: _data/ieee_based_custom.csl
-#   allow_locale_overrides: false
-#   sort_by: year,month
-#   order: descending
-#   source: _data
-#   bibliography_template: bib
-#   bibliography_list_tag: "ul"
+google-analytics: G-SRNWB1DTCG
