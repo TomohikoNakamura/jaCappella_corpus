@@ -1,4 +1,4 @@
-# jaCappella corpus: Japanese a Cappella Vocal Ensemble Corpus / jaCappellaコーパス：日本語アカペラ重唱コーパス
+# jaCappella corpus / jaCappellaコーパス
 The *jaCappella* corpus is a corpus of Japanese a cappella vocal ensembles.
 It consists of 35 copyright-cleared vocal ensemble songs and their audio recordings of individual voice parts. (Note that the jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.)
 These songs were arranged from out-of-copyright Japanese children's songs.
