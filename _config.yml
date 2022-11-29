@@ -18,8 +18,8 @@ domain: tomohikonakamura.github.io
 url: https://tomohikonakamura.github.io
 baseurl: jaCappella_corpus
 
-title: 'jaCappella Corpus'
-description: 'jaCappella Corpus: Japanese a Cappella Vocal Ensemble Corpus'
+title: 'jaCappella Corpus / jaCappellaコーパス'
+description: 'Japanese a Cappella Vocal Ensemble Corpus / 日本語アカペラ重唱コーパス'
 
 theme: jekyll-theme-cayman
 
