@@ -95,9 +95,9 @@ You can download [here](https://forms.gle/bdcdenTojwhD978RA).
 - Hiroshi Saruwatari / 猿渡 洋 (The University of Tokyo / 東京大学)
 
 # Citation / 引用
-If you use the jaCappella corpus, please cite the following paper.
+If you use the jaCappella corpus, please cite [the following paper](https://arxiv.org/abs/2211.16028).
 
-jaCappellaコーパスを利用する際は，以下の論文を引用してください．
+jaCappellaコーパスを利用する際は，[以下の論文](https://arxiv.org/abs/2211.16028)を引用してください．
 
 ```
 @misc{TNakamura2022arXiv_jaCappella,
