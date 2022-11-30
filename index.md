@@ -84,9 +84,9 @@ jaCappellaコーパスチームは，本コーパスの商用利用に関して�
 
 
 # Download / ダウンロード
-This corpus will be released in Nov. 2022.
+You can download [here](https://forms.gle/bdcdenTojwhD978RA).
 
-本コーパスは2022年11月にリリースされます．
+[ここ](https://forms.gle/bdcdenTojwhD978RA)からダウンロードできます．
 
 # Contributors (The jaCappella corpus team)
 - [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/) (The University of Tokyo / 東京大学)
@@ -95,7 +95,20 @@ This corpus will be released in Nov. 2022.
 - Hiroshi Saruwatari / 猿渡 洋 (The University of Tokyo / 東京大学)
 
 # Citation / 引用
-TBA
+If you use the jaCappella corpus, please cite the following paper.
+
+jaCappellaコーパスを利用する際は，以下の論文を引用してください．
+
+```
+@misc{TNakamura2022arXiv_jaCappella,
+    author={Nakamura, Tomohiko and Takamichi, Shinnosuke and Tanji, Naoko and Fukayama, Satoru and Saruwatari, Hiroshi},
+    title={{jaCappella corpus: A} Japanese a cappella vocal ensemble corpus},
+    publisher = {arXiv},
+    note = {arXiv preprint: 2211.16028},
+    url       = {https://arxiv.org/abs/2211.16028},
+    year      = {2022},
+}
+```
 
 # Links / リンク
 - [Saruwatari Koyama Lab.](https://www.sp.ipc.i.u-tokyo.ac.jp/)
