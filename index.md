@@ -102,7 +102,7 @@ jaCappellaコーパスを利用する際は，以下の論文を引用してく�
 ```
 @misc{TNakamura2022arXiv_jaCappella,
     author={Nakamura, Tomohiko and Takamichi, Shinnosuke and Tanji, Naoko and Fukayama, Satoru and Saruwatari, Hiroshi},
-    title={{jaCappella corpus: A} Japanese a cappella vocal ensemble corpus},
+    title={jaCappella corpus: A Japanese a cappella vocal ensemble corpus},
     publisher = {arXiv},
     note = {arXiv preprint: 2211.16028},
     url       = {https://arxiv.org/abs/2211.16028},
