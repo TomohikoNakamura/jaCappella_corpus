@@ -100,13 +100,17 @@ If you use the jaCappella corpus, please cite the following paper.
 jaCappellaコーパスを利用する際は，以下の論文を引用してください．
 
 ```
-@misc{TNakamura2022arXiv_jaCappella,
+@inproceedings{TNakamura202306ICASSP,
     author={Nakamura, Tomohiko and Takamichi, Shinnosuke and Tanji, Naoko and Fukayama, Satoru and Saruwatari, Hiroshi},
-    title={jaCappella corpus: A Japanese a cappella vocal ensemble corpus},
-    publisher = {arXiv},
-    note = {arXiv preprint: 2211.16028},
-    url       = {https://arxiv.org/abs/2211.16028},
-    year      = {2022},
+    title={{jaCappella corpus: A} Japanese a cappella vocal ensemble corpus},
+    booktitle = {Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing},
+    month     = jun,
+    year      = 2023,
+    note = {(to appear)},
+    lang      = {en}
+    url_arXiv = {https://arxiv.org/abs/2211.16028},
+    url_Demo  = {demo/jaCappella_sep},
+    url_Code  = {https://github.com/TomohikoNakamura/asteroid_jaCappella},
 }
 ```
 
