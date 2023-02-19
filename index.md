@@ -105,7 +105,7 @@ jaCappellaコーパスを利用する際は，[以下の論文](https://arxiv.or
 ```
 @inproceedings{TNakamura202306ICASSP,
     author={Nakamura, Tomohiko and Takamichi, Shinnosuke and Tanji, Naoko and Fukayama, Satoru and Saruwatari, Hiroshi},
-    title={{jaCappella corpus: A} Japanese a cappella vocal ensemble corpus},
+    title={jaCappella corpus: A Japanese a cappella vocal ensemble corpus},
     booktitle = {Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing},
     month     = jun,
     year      = 2023,
