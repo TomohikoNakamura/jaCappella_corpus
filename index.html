@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/jaCappella_corpus/assets/css/style.css?v=d61fa08afa1420bc91997f1be3621710871acb02">
+    <link rel="stylesheet" href="/jaCappella_corpus/assets/css/style.css?v=412ddd222a650364f93792d9fc23f3c4f820aae0">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -81,9 +81,16 @@ All singers are native Japanese speakers.</p>
 歌唱者は全て日本語母語話者です．</p>
 
 <h2 id="musical-score--譜面">Musical score / 譜面</h2>
-<p>The musical scores of the songs are provided in the PDF and MusicXML formats.</p>
+<p>The musical scores with Japanese lyrics are provided in the PDF and MusicXML formats.
+This dataset contains MusicXML files whose lyrics were modifed for singing voice synthesis (e.g. “は”-&gt;”わ”, “へ”-&gt;”え”).
+For non-Japanese researchers, MusicXML files with Romaji transcription of lyrics are provided.</p>
 
-<p>譜面は，PDFおよびMusicXML形式で配布されます．</p>
+<p><strong>Remark</strong>: Romaji transcription does not exactly match Japanese pronunciation. For the exact Japanese pronounciation, please refer to the singing voices.</p>
+
+<p>譜面は，PDFおよびMusicXML形式で配布されます．
+また，歌声合成用に歌詞を発音表記に変換したMusicXMLファイル（e.g., 「は」-&gt;「わ」，「へ」-&gt;「え」），非日本語話者用に歌詞をヘボン式ローマ字で表記したMusicXMLファイルも同梱しています．</p>
+
+<p><strong>注意点</strong>：ヘボン式ローマ字表記の歌詞は日本語の発音とは完全に一致するわけではありません．正確な日本語の発音に関しては，歌声を参考にして下さい．</p>
 
 <h2 id="metadata--メタデータ">Metadata / メタデータ</h2>
 <p>Metadata of the songs are given as a csv file.
@@ -95,7 +102,8 @@ The items in the csv file are as follows.</p>
   <li>copyright_of_lyric_writer: Copyright of the lyric writer of the original song</li>
   <li>composer: Composer name of the original song in Japanese</li>
   <li>copyright_of_composer: Copyright of the composer of the original song</li>
-  <li>arranger：Arranger name of the song of our corpus in Japanese</li>
+  <li>arranger_in_en：Arranger name of the song of our corpus in English</li>
+  <li>arranger_in_ja：Arranger name of the song of our corpus in Japanese</li>
   <li>subset：Subset name</li>
   <li>voice_part：Voice part name</li>
   <li>singer_id: Singer identifier (ID)</li>
@@ -112,7 +120,8 @@ csvファイルの項目は以下の通りです．</p>
   <li>copyright_of_lyric_writer：原曲の作詞者の著作権</li>
   <li>composer：原曲の作曲者</li>
   <li>copyright_of_composer：原曲の作曲者の著作権</li>
-  <li>arranger：本コーパスの当該楽曲の編曲者</li>
+  <li>arranger_in_en：本コーパスの当該楽曲の編曲者（英語名表記）</li>
+  <li>arranger_in_ja：本コーパスの当該楽曲の編曲者（日本語名表記）</li>
   <li>subset：サブセット名</li>
   <li>singing_part：声部</li>
   <li>singer_id：歌唱者ID</li>
@@ -161,9 +170,27 @@ csvファイルの項目は以下の通りです．</p>
 
 <p><a href="https://forms.gle/bdcdenTojwhD978RA">ここ</a>からダウンロードできます．</p>
 
+<h1 id="update-logs">Update logs</h1>
+<ul>
+  <li>Feb. 2023: v1.1
+    <ul>
+      <li>Some accidental marks modified in accordance with harmony.</li>
+      <li>Added MusicXML files for singing voice synthesis</li>
+      <li>Added MusicXML files with Romaji transcriptions of lyrics</li>
+    </ul>
+  </li>
+  <li>2023/2：v1.1配布
+    <ul>
+      <li>和声に合わせて臨時記号を修正</li>
+      <li>歌声合成用MusicXMLファイルを追加</li>
+      <li>ヘボン式ローマ字表記歌詞のMusicXMLファイルを追加</li>
+    </ul>
+  </li>
+</ul>
+
 <h1 id="example-applications">Example applications</h1>
 <ul>
-  <li><a href="https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/">Vocal ensemble separation</a></li>
+  <li><a href="https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/">Vocal ensemble separation / 合唱分離</a></li>
 </ul>
 
 <h1 id="contributors-the-jacappella-corpus-team">Contributors (The jaCappella corpus team)</h1>
@@ -187,9 +214,6 @@ csvファイルの項目は以下の通りです．</p>
     year      = 2023,
     note = {(to appear)},
     lang      = {en}
-    url_arXiv = {https://arxiv.org/abs/2211.16028},
-    url_Demo  = {demo/jaCappella_sep},
-    url_Code  = {https://github.com/TomohikoNakamura/asteroid_jaCappella},
 }
 </code></pre></div></div>
 
