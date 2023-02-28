@@ -20,9 +20,17 @@ All singers are native Japanese speakers.
 歌唱者は全て日本語母語話者です．
 
 ## Musical score / 譜面
-The musical scores of the songs are provided in the PDF and MusicXML formats.
+The musical scores with Japanese lyrics are provided in the PDF and MusicXML formats.
+This dataset contains MusicXML files whose lyrics were modifed for singing voice synthesis (e.g. "は"->"わ", "へ"->"え").
+For non-Japanese researchers, MusicXML files with Romaji transcription of lyrics are provided.
+
+**Remark**: Romaji transcription does not exactly match Japanese pronunciation. For the exact Japanese pronounciation, please refer to the singing voices.
+
 
 譜面は，PDFおよびMusicXML形式で配布されます．
+また，歌声合成用に歌詞を発音表記に変換したMusicXMLファイル（e.g., 「は」->「わ」，「へ」->「え」），非日本語話者用に歌詞をヘボン式ローマ字で表記したMusicXMLファイルも同梱しています．
+
+**注意点**：ヘボン式ローマ字表記の歌詞は日本語の発音とは完全に一致するわけではありません．正確な日本語の発音に関しては，歌声を参考にして下さい．
 
 ## Metadata / メタデータ
 Metadata of the songs are given as a csv file.
@@ -33,7 +41,8 @@ The items in the csv file are as follows.
 - copyright_of_lyric_writer: Copyright of the lyric writer of the original song
 - composer: Composer name of the original song in Japanese
 - copyright_of_composer: Copyright of the composer of the original song
-- arranger：Arranger name of the song of our corpus in Japanese
+- arranger_in_en：Arranger name of the song of our corpus in English
+- arranger_in_ja：Arranger name of the song of our corpus in Japanese
 - subset：Subset name
 - voice_part：Voice part name
 - singer_id: Singer identifier (ID)
@@ -48,7 +57,8 @@ csvファイルの項目は以下の通りです．
 - copyright_of_lyric_writer：原曲の作詞者の著作権
 - composer：原曲の作曲者
 - copyright_of_composer：原曲の作曲者の著作権
-- arranger：本コーパスの当該楽曲の編曲者
+- arranger_in_en：本コーパスの当該楽曲の編曲者（英語名表記）
+- arranger_in_ja：本コーパスの当該楽曲の編曲者（日本語名表記）
 - subset：サブセット名
 - singing_part：声部
 - singer_id：歌唱者ID
@@ -88,8 +98,19 @@ You can download [here](https://forms.gle/bdcdenTojwhD978RA).
 
 [ここ](https://forms.gle/bdcdenTojwhD978RA)からダウンロードできます．
 
+# Update logs
+- Feb. 2023: v1.1
+  - Some accidental marks modified in accordance with harmony.
+  - Added MusicXML files for singing voice synthesis
+  - Added MusicXML files with Romaji transcriptions of lyrics
+
+- 2023/2：v1.1配布
+  - 和声に合わせて臨時記号を修正
+  - 歌声合成用MusicXMLファイルを追加
+  - ヘボン式ローマ字表記歌詞のMusicXMLファイルを追加
+
 # Example applications
-- [Vocal ensemble separation](https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/)
+- [Vocal ensemble separation / 合唱分離](https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/)
 
 # Contributors (The jaCappella corpus team)
 - [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/) (The University of Tokyo / 東京大学)
@@ -111,9 +132,6 @@ jaCappellaコーパスを利用する際は，[以下の論文](https://arxiv.or
     year      = 2023,
     note = {(to appear)},
     lang      = {en}
-    url_arXiv = {https://arxiv.org/abs/2211.16028},
-    url_Demo  = {demo/jaCappella_sep},
-    url_Code  = {https://github.com/TomohikoNakamura/asteroid_jaCappella},
 }
 ```
 
