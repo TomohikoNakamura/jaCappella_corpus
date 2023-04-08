@@ -67,15 +67,15 @@ csvファイルの項目は以下の通りです．
 
 # Terms of Use / 利用規約
 ## English version
-- You may not use all data contained in the jaCappella (hereafter, the material) for commercial purposes.
-- You may not copy or redistribute the material in any medium or format. You are exceptionally allowed to publish small part of the corpus (e.g., a few phrases of around 5 songs) to demonstrate results of your research and development on your web pages.
+- You may not use any of the data contained in the jaCappella (hereafter, the material) for commercial purposes.
+- You may not copy or redistribute the material in any medium or format. Exceptionally, you are allowed to publish a small portion of the corpus (e.g., a few phrases from around 5 songs) to demonstrate the results of your research and development on your web pages.
 - You must give appropriate credit and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 - If you remix, transform, or build upon the material, you may not distribute the modified material. The distribution of modified material are exceptionally allowed only to the extent necessary for research purposes. Possible use cases are as follows.
   - Research at academic institutions
   - Research for non-commercial purposes (including research by commercial organizations)
   - Personal use (including blogs, etc.)
 - Any use that will violate public order and standards of decency are prohibited.
-
+- Use by antisocial forces (groups or individuals who pursue economic benefits through the use of violence, force, and fraudulent methods) is prohibited.
 
 ## 日本語版
 - jaCappellaコーパスに含まれる全データ（以下，本データと呼ぶ）は，現在商用目的では利用できません．
@@ -86,11 +86,15 @@ csvファイルの項目は以下の通りです．
   - 非商用目的での研究（営利団体での研究も含む）
   - 個人での利用（ブログなどを含む）
 - 公序良俗に反する利用は認められていません．
+- 反社会的勢力（暴力、威力と詐欺的手法を駆使して経済的利益を追求する集団又は個人をいう）の使用を禁じます．
 
 ## For commercial Use / 商用利用に関して
-The jaCappella corpus team is considering for commercial use of the jaCappella corpus. If you are interested in the commercial use, please wait for next announcement about it.
+We welcome commercial use of this corpus. The commercial use is chargeable and please feel free to contact the following members for your commercial use.
 
-jaCappellaコーパスチームは，本コーパスの商用利用に関して検討を行っています．商用利用に興味のある方は，次報をお待ち下さい．
+このコーパスの商用利用を歓迎します．商用利用は有料となりますので，下記のメンバーまでお気軽にご連絡ください．
+
+- [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/): tomohiko.nakamura.jp [_at_mark_] ieee.org
+- [Shinnosuke Takamichi / 高道 慎之介](https://sites.google.com/site/shinnosuketakamichi/home) shinnosuke_takamichi [_at_mark_] ipc.i.u-tokyo.ac.jp
 
 
 # Download / ダウンロード
