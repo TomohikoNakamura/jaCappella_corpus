@@ -7,7 +7,7 @@ They are divided into seven subsets (jazz, punk rock, bossa nova, popular, regga
 
 *jaCappella*コーパスは，日本語のアカペラ重唱曲のコーパスです．
 本コーパスは，35曲の著作権処理済みアカペラ重唱曲と各声部の単独歌唱音源からなります．（jaCappellaコーパスチームは，作成した重唱曲に関する全ての著作権と著作隣接権を保有しています．）
-これらの重唱曲は，著作権保護期間の切れた童謡・唱歌から編曲して作成されています．
+これらの重唱曲は，著作権保護期間の終了した童謡・唱歌から編曲して作成されています．
 声部は，lead vocal，soprano，alto，tenor，bass，vocal percussionの6つです．
 本コーパスは，7つのサブセット（jazz, punk rock, bossa nova, popular, reggae, enka, neutral）からなり，それぞれ対応するジャンルの典型的な特徴を備えた曲群からなります．
 
@@ -140,7 +140,7 @@ jaCappellaコーパスを利用する際は，[以下の論文](https://arxiv.or
 ```
 
 # Links / リンク
-- [Saruwatari Koyama Lab.](https://www.sp.ipc.i.u-tokyo.ac.jp/)
+- [Saruwatari Takamichi Lab.](https://www.sp.ipc.i.u-tokyo.ac.jp/)
 
 # Acknowledgement / 謝辞
 The jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.
