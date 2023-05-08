@@ -25,3 +25,7 @@ theme: jekyll-theme-cayman
 
 # Optional
 google-analytics: G-SRNWB1DTCG
+
+show_downloads: true
+download_url: https://forms.gle/bdcdenTojwhD978RA
+paper_url: https://doi.org/10.1109/ICASSP49357.2023.10095569
