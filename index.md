@@ -1,4 +1,5 @@
 # jaCappella corpus / jaCappellaコーパス
+
 The *jaCappella* corpus is a corpus of Japanese a cappella vocal ensembles.
 It consists of 35 copyright-cleared vocal ensemble songs and their audio recordings of individual voice parts. (Note that the jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.)
 These songs were arranged from out-of-copyright Japanese children's songs.
@@ -98,9 +99,9 @@ We welcome commercial use of this corpus. The commercial use is chargeable and p
 
 
 # Download / ダウンロード
-You can download [here](https://forms.gle/bdcdenTojwhD978RA).
+You can download [here]({{ site.download_url }}).
 
-[ここ](https://forms.gle/bdcdenTojwhD978RA)からダウンロードできます．
+[ここ]({{ site.download_url }})からダウンロードできます．
 
 # Update logs
 - Feb. 2023: v1.1
@@ -114,7 +115,7 @@ You can download [here](https://forms.gle/bdcdenTojwhD978RA).
   - ヘボン式ローマ字表記歌詞のMusicXMLファイルを追加
 
 # Example applications
-- [Vocal ensemble separation / 合唱分離](https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/)
+- [Vocal ensemble separation / 重唱分離](https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/)
 
 # Contributors (The jaCappella corpus team)
 - [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/) (The University of Tokyo / 東京大学)
@@ -123,18 +124,21 @@ You can download [here](https://forms.gle/bdcdenTojwhD978RA).
 - Hiroshi Saruwatari / 猿渡 洋 (The University of Tokyo / 東京大学)
 
 # Citation / 引用
-If you use the jaCappella corpus, please cite [the following paper](https://arxiv.org/abs/2211.16028).
+If you use the jaCappella corpus, please cite [the following paper]({{ site.paper_url }}).
 
-jaCappellaコーパスを利用する際は，[以下の論文](https://arxiv.org/abs/2211.16028)を引用してください．
+jaCappellaコーパスを利用する際は，[以下の論文]({{ site.paper_url }})を引用してください．
 
 ```
 @inproceedings{TNakamura202306ICASSP,
     author={Nakamura, Tomohiko and Takamichi, Shinnosuke and Tanji, Naoko and Fukayama, Satoru and Saruwatari, Hiroshi},
     title={jaCappella corpus: A Japanese a cappella vocal ensemble corpus},
-    booktitle = {Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing},
+    booktitle = ICASSP,
     month     = jun,
     year      = 2023,
-    note = {(to appear)},
+    url_arXiv = {https://arxiv.org/abs/2211.16028},
+    url_Demo  = {demo/jaCappella_sep},
+    url_Code  = {https://github.com/TomohikoNakamura/asteroid_jaCappella},
+    doi       = {10.1109/ICASSP49357.2023.10095569},
     lang      = {en}
 }
 ```
