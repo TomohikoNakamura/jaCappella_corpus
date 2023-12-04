@@ -1,14 +1,13 @@
-{% include video.html video_url="/assets/videos/jaCappella_v2_trailer_midquality.mp4" %}
-
 # jaCappella corpus / jaCappellaコーパス
+
 The *jaCappella* corpus is a corpus of Japanese a cappella vocal ensembles.
-It consists of 50 copyright-cleared vocal ensemble songs and their audio recordings of individual voice parts. (Note that the jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.)
+It consists of 35 copyright-cleared vocal ensemble songs and their audio recordings of individual voice parts. (Note that the jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.)
 These songs were arranged from out-of-copyright Japanese children's songs.
 All songs have six voice parts (lead vocal, soprano, alto, tenor, bass, and vocal percussion).
 They are divided into seven subsets (jazz, punk rock, bossa nova, popular, reggae, enka, and neutral), each of which features typical characteristics of a music genre.
 
 *jaCappella*コーパスは，日本語のアカペラ重唱曲のコーパスです．
-本コーパスは，50曲の著作権処理済みアカペラ重唱曲と各声部の単独歌唱音源からなります．（jaCappellaコーパスチームは，作成した重唱曲に関する全ての著作権と著作隣接権を保有しています．）
+本コーパスは，35曲の著作権処理済みアカペラ重唱曲と各声部の単独歌唱音源からなります．（jaCappellaコーパスチームは，作成した重唱曲に関する全ての著作権と著作隣接権を保有しています．）
 これらの重唱曲は，著作権保護期間の終了した童謡・唱歌から編曲して作成されています．
 声部は，lead vocal，soprano，alto，tenor，bass，vocal percussionの6つです．
 本コーパスは，7つのサブセット（jazz, punk rock, bossa nova, popular, reggae, enka, neutral）からなり，それぞれ対応するジャンルの典型的な特徴を備えた曲群からなります．
@@ -105,15 +104,11 @@ You can download [here]({{ site.download_url }}).
 [ここ]({{ site.download_url }})からダウンロードできます．
 
 # Update logs
-- Dec. 2023: v2
-  - Added sheet music and audio recordings of 15 songs (ballad, EDM, and soul/funk)
 - Feb. 2023: v1.1
   - Some accidental marks modified in accordance with harmony.
   - Added MusicXML files for singing voice synthesis
   - Added MusicXML files with Romaji transcriptions of lyrics
 
-- 2023/12：v2.0配布
-  - 15曲（ballad，EDM，soul/funk）の譜面，歌唱音源を追加
 - 2023/2：v1.1配布
   - 和声に合わせて臨時記号を修正
   - 歌声合成用MusicXMLファイルを追加
@@ -123,8 +118,8 @@ You can download [here]({{ site.download_url }}).
 - [Vocal ensemble separation / 重唱分離](https://tomohikonakamura.github.io/Tomohiko-Nakamura/demo/jaCappella_sep/), [code](https://github.com/TomohikoNakamura/asteroid_jaCappella/tree/jaCappella/egs/jaCappella)
 
 # Contributors (The jaCappella corpus team)
-- [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/)
-- [Shinnosuke Takamichi / 高道 慎之介](https://sites.google.com/site/shinnosuketakamichi/home) (The University of Tokyo / 東京大学)
+- [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/) (The University of Tokyo / 東京大学)
+- [Shinnosuke Takamichi / 高道 慎之介](https://sites.google.com/site/shinnosuketakamichi/home) (The University of Tokyo / 東京大学
 - Naoko Tanji / 丹治 尚子 (The University of Tokyo / 東京大学)
 - Hiroshi Saruwatari / 猿渡 洋 (The University of Tokyo / 東京大学)
 
