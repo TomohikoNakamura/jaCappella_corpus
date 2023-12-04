@@ -1,4 +1,4 @@
-{% include google-drive-video.html video_url="https://drive.google.com/file/d/1qrzygS2xGKck6kFGh_QPQ31oZg8he3Y0/preview" ratio="16/9" %}
+{% include youtube-embed.html video_url="https://www.youtube.com/embed/RnhTfLkIsxk?si=SXNInuJ4hDLKIonH" ratio="16/9" %}
 
 # jaCappella corpus / jaCappellaコーパス
 The *jaCappella* corpus is a corpus of Japanese a cappella vocal ensembles.
