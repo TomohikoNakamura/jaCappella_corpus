@@ -5,13 +5,13 @@ The *jaCappella* corpus is a corpus of Japanese a cappella vocal ensembles.
 It consists of 50 copyright-cleared vocal ensemble songs and their audio recordings of individual voice parts. (Note that the jaCappella corpus team reserves all copyrights and neighboring rights of the vocal ensemble songs.)
 These songs were arranged from out-of-copyright Japanese children's songs.
 All songs have six voice parts (lead vocal, soprano, alto, tenor, bass, and vocal percussion).
-They are divided into seven subsets (jazz, punk rock, bossa nova, popular, reggae, enka, and neutral), each of which features typical characteristics of a music genre.
+They are divided into 10 subsets (jazz, punk rock, bossa nova, popular, reggae, enka, neutral, ballad, edm, and soulfunk), each of which features typical characteristics of a music genre.
 
 *jaCappella*コーパスは，日本語のアカペラ重唱曲のコーパスです．
 本コーパスは，50曲の著作権処理済みアカペラ重唱曲と各声部の単独歌唱音源からなります．（jaCappellaコーパスチームは，作成した重唱曲に関する全ての著作権と著作隣接権を保有しています．）
 これらの重唱曲は，著作権保護期間の終了した童謡・唱歌から編曲して作成されています．
 声部は，lead vocal，soprano，alto，tenor，bass，vocal percussionの6つです．
-本コーパスは，7つのサブセット（jazz, punk rock, bossa nova, popular, reggae, enka, neutral）からなり，それぞれ対応するジャンルの典型的な特徴を備えた曲群からなります．
+本コーパスは，10個のサブセット（jazz, punk rock, bossa nova, popular, reggae, enka, neutral, ballad, edm, and soulfunk）からなり，それぞれ対応するジャンルの典型的な特徴を備えた曲群からなります．
 
 ## Audio files of singing voices / 歌唱音源ファイル
 The singing voices were recorded in a recording studio.
@@ -24,7 +24,7 @@ All singers are native Japanese speakers.
 ## Musical score / 譜面
 The musical scores with Japanese lyrics are provided in the PDF and MusicXML formats.
 This dataset contains MusicXML files whose lyrics were modifed for singing voice synthesis (e.g. "は"->"わ", "へ"->"え").
-For non-Japanese researchers, MusicXML files with Romaji transcription of lyrics are provided.
+For non-Japanese researchers, MusicXML files with Romaji transcriptions of lyrics are provided.
 
 **Remark**: Romaji transcription does not exactly match Japanese pronunciation. For the exact Japanese pronounciation, please refer to the singing voices.
 
@@ -105,6 +105,8 @@ You can download [here]({{ site.download_url }}).
 [ここ]({{ site.download_url }})からダウンロードできます．
 
 # Update logs
+- Dec. 2023: v.2.0.1
+  - Fixed bug: Modified `bass.wav` and `vocal_percussion.wav` of `yurikagonouta` in the soul/funk subset
 - Dec. 2023: v2
   - Added sheet music and audio recordings of 15 songs (ballad, EDM, and soul/funk)
 - Feb. 2023: v1.1
@@ -112,6 +114,8 @@ You can download [here]({{ site.download_url }}).
   - Added MusicXML files for singing voice synthesis
   - Added MusicXML files with Romaji transcriptions of lyrics
 
+- 2023/12：v.2.0.1配布
+  - Soul/funkサブセットの揺籃のうたに関して，`bass.wav`と`vocal_percussion.wav`が入れ替わっていた問題を修正
 - 2023/12：v2.0配布
   - 15曲（ballad，EDM，soul/funk）の譜面，歌唱音源を追加
 - 2023/2：v1.1配布
