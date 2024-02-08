@@ -105,6 +105,7 @@ You can download [here]({{ site.download_url }}).
 [ここ]({{ site.download_url }})からダウンロードできます．
 
 # Update logs
+- Feb. 2024: Data distribution on huggingface datasets started.
 - Dec. 2023: v.2.0.1
   - Fixed bug: Modified `bass.wav` and `vocal_percussion.wav` of `yurikagonouta` in the soul/funk subset
 - Dec. 2023: v2
@@ -114,6 +115,7 @@ You can download [here]({{ site.download_url }}).
   - Added MusicXML files for singing voice synthesis
   - Added MusicXML files with Romaji transcriptions of lyrics
 
+- 2024/2: huggingface datasets上でのデータ配布を開始
 - 2023/12：v.2.0.1配布
   - Soul/funkサブセットの揺籃のうたに関して，`bass.wav`と`vocal_percussion.wav`が入れ替わっていた問題を修正
 - 2023/12：v2.0配布

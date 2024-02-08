@@ -27,5 +27,5 @@ theme: jekyll-theme-cayman
 google-analytics: G-SRNWB1DTCG
 
 show_downloads: true
-download_url: https://forms.gle/bdcdenTojwhD978RA
+download_url: https://huggingface.co/datasets/jaCappella/jaCappella
 paper_url: https://doi.org/10.1109/ICASSP49357.2023.10095569
