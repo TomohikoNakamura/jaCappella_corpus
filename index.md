@@ -93,11 +93,8 @@ csvファイルの項目は以下の通りです．
 ## For commercial Use / 商用利用に関して
 We welcome commercial use of this corpus. The commercial use is chargeable and please feel free to contact the following members for your commercial use.
 
-このコーパスの商用利用を歓迎します．商用利用は有料となりますので，下記のメンバーまでお気軽にご連絡ください．
-
-- [Tomohiko Nakamura / 中村友彦](https://tomohikonakamura.github.io/Tomohiko-Nakamura/): tomohiko.nakamura.jp [_at_mark_] ieee.org
-- [Shinnosuke Takamichi / 高道 慎之介](https://sites.google.com/site/shinnosuketakamichi/home) shinnosuke_takamichi [_at_mark_] ipc.i.u-tokyo.ac.jp
-
+このコーパスの商用利用を歓迎します．商用利用は有料となりますので，下記のメールアドレスまでお気軽にご連絡ください．
+jacappella-group [_at_mark_] g.ecc.u-tokyo.ac.jp
 
 # Download / ダウンロード
 You can download [here]({{ site.download_url }}).
