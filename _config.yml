@@ -24,7 +24,8 @@ description: 'Japanese a Cappella Vocal Ensemble Corpus / 日本語アカペラ�
 theme: jekyll-theme-cayman
 
 # Optional
-google-analytics: G-SRNWB1DTCG
+google-analytics: G-M0M1Z48ZBV
+
 
 show_downloads: true
 download_url: https://huggingface.co/datasets/jaCappella/jaCappella
